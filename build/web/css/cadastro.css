@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    color: black;
+    background-image: radial-gradient(
+        circle,
+        #0a2b01,
+        #31e400,
+        #b3ff00
+        )
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-image: url('../img/tela2.png');
+}
+
+h1 {
+    text-align: center;
+    font-family: Abril Fatface;
+    font-size: 50px;
+    color: black;
+}
+
+.form-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    width: 100%;
+    margin: 5px 25%;
+}
+
+.form-group input, 
+.form-group select {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin: 5px 25%;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid #000;
+    background-color: transparent;
+    outline: none;
+}
+
+.condicoes-senha {
+    color: #ff0000;
+    margin: 5px 25%;
+    margin-bottom: 30px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    width: 40%;
+    padding: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 40px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+button:disabled {
+    background-color: #c5c5c5;
+}
+
+.documento {
+    margin-top: 50px;
+    width: 50%;
+    padding: 14%; /* Ajuste o padding conforme necessário */
+    background-image: url('../img/documentoUnico.png');
+    background-repeat: no-repeat;
+    background-size: contain; /* Ajusta a imagem de fundo para caber dentro do elemento */
+    margin-left: 130px; /* Centraliza horizontalmente */
+    margin-right: auto; /* Centraliza horizontalmente */
+    display: grid;
+    grid-template-columns: 1fr; /* Define colunas específicas */
+}
+
+.documento h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+    margin-left: 80px;
+}
+
+#documentoUnico {
+    font-size: 35px;
+    margin-bottom: 60px;
+    margin-left: 20px;
+}
+
+.documento p {
+    font-size: 25px;
+    margin: 5px 0;
+    font-weight: bold;
+    margin-top: 10px;
+}
