@@ -19,10 +19,13 @@ Este repositório contém o código-fonte completo e a documentação para o DU,
 - O DU será gerado somente se todas as informações inseridas estiverem corretas, incluindo confirmação de e-mail e senha.
 
 ## Tecnologias utilizadas: 
-- Linguagem de Programação Javascript, HTML 5 e CSS;
+- Javascript
+- HTML 5
+- CSS
 
 ## Licença:
 Freeware - O Documento Único é disponibilizado gratuitamente para uso pessoal e comercial.
 
 ## COMO EXECUTAR O PROGRAMA?
-- Para executar corretamente o programa, basta executar o atalho "Index.Ink"
+- Navegue pelas seguintes pastas: build > web
+- Abrir o arquivo index.html
