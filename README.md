@@ -1,8 +1,8 @@
 # Documento Único (DU)
 
 ## Descrição:
-O Documento Único (DU) é uma inovadora solução de software projetada para simplificar o processo de cadastro em plataformas online. 
-Este repositório contém o código-fonte completo e a documentação para o DU, uma ferramenta que permite aos usuários unificar todos os seus documentos físicos em um único ambiente virtual.
+O Documento Único (DU) é uma inovadora solução de software projetado para simplificar o processo de cadastro em plataformas online, 
+permitindo aos usuários unificar todos os seus documentos físicos em um único ambiente virtual.
 
 ## Recursos Principais:
 - Cadastro simplificado de novos usuários.
